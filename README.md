@@ -21,7 +21,7 @@ Si I est plus grand, les virus pouvent facilement infecter des gens sains , c’
 Cependant, on ne peut pas detecter que ces personnes sont infectees , jusqu’a on arrive a l’etat 0.5 qui dure un certain temps ( depend de U )
 Dans l’etat 0.5, si M est grand, les virus peuvent facilement tuer les patients,  c’est a dire de 0.5 changent passe a 1.
 On s’interesse a etudier que:
--	  La relation entre l’environnement reel et nos variables.
+La relation entre l’environnement reel et nos variables.
 On peut mimer que comment le virus agit dans la realite (Ex : on change M et I, par exemple ces deux variables sont plus grandes dans les region arriere a cause des conditions economiques et hygienique)
 
 Plus precisement,on cree certaine parametres possibles a mettre de I,M et U.
