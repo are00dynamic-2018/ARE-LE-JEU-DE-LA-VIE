@@ -37,10 +37,9 @@ Plus précisement,on pose des formules selon des relations de variables:
 -  le taux de mortalité=5*((100-la probabilité de guérison)/100)
 
 Tout d'abord,on inisialise des valeurs:
-N=10
+N=100
 P=10
-I1=50
+I1=100
 I2=100
-J=50
+J=200
 U=3
-![image](
