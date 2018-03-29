@@ -35,11 +35,3 @@ Plus précisement,on pose des formules selon des relations de variables:
 -  la probabilité de guérison=10+10*(la vitesse de recherche des médicaments).
         (où le premier"10"est la probabilité de guérison par soi-même et le deuxième "10"est un coeffience défini par nous)
 -  le taux de mortalité=5*((100-la probabilité de guérison)/100)
-
-Tout d'abord,on inisialise des valeurs:
-N=100
-P=10
-I1=100
-I2=100
-J=200
-U=3
