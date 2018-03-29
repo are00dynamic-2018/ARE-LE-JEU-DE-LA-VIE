@@ -4,6 +4,7 @@ Ji Yinzhe
 Zhao Zixuan
 Liu Yuhao
 Lu Zhaojie
+
 Introduction:
  On utilise 4 nombres pour présenter 4 états dans ce phénomène d’infectation ,
 - 0: les personnes sains
