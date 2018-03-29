@@ -13,9 +13,13 @@ Introduction:
 - 0.5: les personnes infectees
 
 Ensuite, pour les variables, on considere de mettre:
--	  I: le taux d’etre infecte
+-	  I1: probabilite d'infectation de la maladie
 -	  M: le taux de mortalite
 -	  U: la duree de la periode d’incubation 
+-   I2: probalilite de comtamination par la maladie
+-   P: % de probabilite pour attendre le virus dans la population initial
+-   S: probabilite de soin
+-   J: jours
 
 Si I est plus grand, les virus pouvent facilement infecter des gens sains , c’est-a-dire de 0 passe a 0.25.
 Cependant, on ne peut pas detecter que ces personnes sont infectees , jusqu’a on arrive a l’etat 0.5 qui dure un certain temps ( depend de U )
@@ -29,5 +33,5 @@ Plus precisement,on cree certaine parametres possibles a mettre de I,M et U.
 -    on pose la capacite de propagation depend de facon de propagation et la duree de la periode d'incubation.On pose il y a trois facons de propagation:par l'ocean,par le terre et par l'atmosphere,donc la coefficient de propagation par l'ocean =la rapport de la surfance d'ocean (aleatoire) * le coefficient d'affinite avec l'ocean(aleatoire),analogue par le terre et l'atmosphere.
 -    on pose la capacite de mutation depend de resistance au medicament,le coefficient d'affinite avec l'environnement et le symptome(la duree de la periode d'incubation.On tire la probabilite de mutation a l'initialisation aleatoirement,apres chaque etape,la resistance au medicament va changer aleatoirement,cest a dire la probabilite de mutation va changer,donc il va influencer la vitesse de rechercher,la capacite de propagation et la probabilite de mort.Ensuite,on pose la coefficient de symptome qui a la relation entre la probabilite de mort,la probabilite de mutation et la duree de la periode d'incubation.
 -    on pose la probabilite de mort a la relation entre la probabilite de guerison et la coefficient de symptome.La probabilite de la guerison depend de la vitesse de rechercher et la coefficient de guerison d'autotherapie.(ca cest aleatoire aussi)
-
+ 
 ![graphe](https://github.com/are00dynamic-2018/Propagation-d-une-maladie-/blob/image/la%20graphe%20pour%20les%20personnes%20normales%20et%20mortes.png?raw=true）)
