@@ -17,7 +17,21 @@ Ensuite, pour les variables, on considère de mettre:
 -	 M: le taux de mortalité
 -	 U: la durée de la période d’incubation 
 -  I2: probalilité de comtamination par la maladie
--  P: % de probabilité pour attendre le virus dans la population initiale
--  S: probabilité de soin
+-  P: % de probabilité pour attendre le virus dans les populations initiales
+-  S: la probabilité de guérison
 -  J: jours
 
+Après,on pose des relations de variables:
+-  La rapport des personnes infectées et la rapport des personnes mortes déterminent la vitesse de recherche des médicaments.Plus de personnes infectées et mortes,plus de la vitesse de recherche des médicaments.
+-  La vitesse de recherche des médicaments va déterminer la probabilité de guérison.
+-  La probabilité de guérison est composée par la guérison par soi-même et la guérison médicale.
+-  la probabilité de guérison va influencer la taux de mortalité.
+-  la probabilité d'infectation de la maladie et la probalilité de comtamination par la maladie sont défini directement au début.
+
+Plus précisement,on pose des formules selon des relations de variables:
+-  la rapport des personnes infectées:les personnes infectées/les personnes totales.
+-  la rapport des personnes mortes:les personnes mortes/les personnes totales.
+-  la vitesse de recherche des médicaments=1*(la rapport des personnes infectées)+2*(la rapport des personnes mortes).
+-  la probabilité de guérison=10+10*(la vitesse de recherche des médicaments).
+        (où le premier"10"est la probabilité de guérison par soi-même et le deuxième "10"est un coeffience défini par nous)
+-  le taux de mortalité=5*((100-la probabilité de guérison)/100)
