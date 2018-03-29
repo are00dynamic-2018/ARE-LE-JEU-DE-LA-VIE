@@ -35,3 +35,14 @@ Plus précisement,on pose des formules selon des relations de variables:
 -  la probabilité de guérison=10+10*(la vitesse de recherche des médicaments).
         (où le premier"10"est la probabilité de guérison par soi-même et le deuxième "10"est un coeffience défini par nous)
 -  le taux de mortalité=5*((100-la probabilité de guérison)/100)
+
+Le processus de propagation:
+Regarder les graphes suivants:
+
+Remarque:les processus est:les personnes sains->les personnes dans la période d’incubation->les personnes infectées->les     personnes mortes.(c'est-à-dire 0->0.25->0.5->1)
+
+
+
+
+
+
