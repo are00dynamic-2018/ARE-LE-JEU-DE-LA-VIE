@@ -39,9 +39,15 @@ Plus précisement,on pose des formules selon des relations de variables:
 Le processus de propagation:
 Regarder les graphes suivants:
 1.Si la personne infectée est dans un coin de la matrice,alors il peut juste infecter deux personnes à côté de lui;
-![graphe 7]()
+![graphe 7](https://github.com/are00dynamic-2018/Propagation-d-une-maladie-/blob/image/1517802489.jpg)
 
-Remarque:les processus est:les personnes sains->les personnes dans la période d’incubation->les personnes infectées->les     personnes mortes.(c'est-à-dire 0->0.25->0.5->1)
+2.Si la personne infectée est dans un côté de la matrice,alors il peut juste infecter trois personnes à côté de lui;
+![graphe 8](https://github.com/are00dynamic-2018/Propagation-d-une-maladie-/blob/image/1823408148.jpg)
+
+3.Si la personne infectée est ni dans un côté ni dans un coin,alors il peut infecter quatre personnes à côté de lui;
+![graphe 9](https://github.com/are00dynamic-2018/Propagation-d-une-maladie-/blob/image/329132741.jpg)
+
+Remarque:les processus est:les personnes sains->les personnes dans la période d’incubation->les personnes infectées->les     personnes mortes.(c'est-à-dire 0->0.25->0.5->1,on peut pas infecter directement 0->0.5,il faut qu'il soit au moins d'un jour d’incubation comme 0->0.25)
 
 Ensuite,on change des valeurs initialisées et dessine les graphe:les personnes saines et les personnes mortes respectivement en fonction des jours.
 
