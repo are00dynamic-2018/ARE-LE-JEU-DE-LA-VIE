@@ -38,6 +38,8 @@ Plus précisement,on pose des formules selon des relations de variables:
 
 Le processus de propagation:
 Regarder les graphes suivants:
+1.Si la personne infectée est dans un coin de la matrice,alors il peut juste infecter deux personnes à côté de lui;
+![graphe 7]()
 
 Remarque:les processus est:les personnes sains->les personnes dans la période d’incubation->les personnes infectées->les     personnes mortes.(c'est-à-dire 0->0.25->0.5->1)
 
