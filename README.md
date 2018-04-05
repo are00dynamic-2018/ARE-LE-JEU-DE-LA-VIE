@@ -67,6 +67,8 @@ S=10
 
 ![graphe 1](https://github.com/are00dynamic-2018/Propagation-d-une-maladie-/blob/image/1.png?raw=true)
 
+![Watch the video]（）
+
 N=100
 P=10
 I1=50
