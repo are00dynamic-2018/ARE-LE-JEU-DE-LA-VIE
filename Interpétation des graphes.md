@@ -64,3 +64,15 @@ U=3
 S=10
 
 ![graphe 6](https://github.com/are00dynamic-2018/Propagation-d-une-maladie-/blob/image/6.png?raw=true)
+
+
+N=100
+P=10
+I1=100
+I2=100
+M=5
+J=200
+U=10
+S=10
+
+![graphe 7](https://github.com/are00dynamic-2018/Propagation-d-une-maladie-/blob/image/index.png?raw=true)
