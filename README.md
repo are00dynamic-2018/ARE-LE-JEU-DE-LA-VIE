@@ -56,7 +56,8 @@ Remarque:les processus est:les personnes sains->les personnes dans la période d
 
 Donc si on met ces trois cas dans le même graphe,c'est comme le graphe suivant:
 
-![graphe 10]()
+![graphe 10](https://github.com/are00dynamic-2018/Propagation-d-une-maladie-/blob/image/11111.png)
+
 
 Ensuite,on change des valeurs initialisées et dessine les graphe:les personnes saines et les personnes mortes respectivement en fonction des jours.
 
