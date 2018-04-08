@@ -61,6 +61,8 @@ Donc si on met ces trois cas dans le même graphe,c'est comme le graphe suivant:
 
 Ensuite,on change des valeurs initialisées et dessine les graphe:les personnes saines et les personnes mortes respectivement en fonction des jours.
 
+Dans les graphes,les courbes rouges sont les personnes saines et les courbes bleus sont les personnes mortes.
+
 N=100
 P=10
 I1=100
