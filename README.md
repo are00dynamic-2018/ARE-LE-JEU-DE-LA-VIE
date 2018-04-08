@@ -54,6 +54,10 @@ Regarder les graphes suivants:
 
 Remarque:les processus est:les personnes sains->les personnes dans la période d’incubation->les personnes infectées->les     personnes mortes.(c'est-à-dire 0->0.25->0.5->1,on peut pas infecter directement 0->0.5,il faut qu'il soit au moins d'un jour d’incubation comme 0->0.25)
 
+Donc si on met ces trois cas dans le même graphe,c'est comme le graphe suivant:
+
+![graphe 10]()
+
 Ensuite,on change des valeurs initialisées et dessine les graphe:les personnes saines et les personnes mortes respectivement en fonction des jours.
 
 N=100
