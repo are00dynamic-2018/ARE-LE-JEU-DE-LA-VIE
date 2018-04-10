@@ -14,11 +14,11 @@ Introduction:
 
 Ensuite, pour les variables, on considère de mettre:
 -	 I1: probabilité d'infectation de la maladie
--	 M: le taux de mortalité
--	 U: la durée de la période d’incubation 
--  I2: probalilité de comtamination par la maladie
+-	 I2: probalilité de comtamination par la maladie
+-  M: le taux de mortalité
+-	 S: le taux de guérison
+-  U: la durée de la période d’incubation 
 -  P: % de probabilité pour attendre le virus dans les populations initiales
--  S: la probabilité de guérison
 -  J: jours
 
 Après,on pose des relations de variables:
